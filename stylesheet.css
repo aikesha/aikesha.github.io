@@ -133,3 +133,42 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* or any other color you prefer */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* optional shadow for a bit of depth */
+  z-index: 1000; /* ensures the header is always on top */
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px; /* space between items */
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #333; /* choose a color you like */
+  transition: color 0.3s;
+}
+
+.header-nav a:hover {
+  color: #0077cc; /* highlight color on hover */
+}
