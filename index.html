@@ -121,7 +121,7 @@
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <!-- Publication 0 -->
               <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:25%;vertical-align:top">
                   <img src='images/access-gagraphic-3394696.jpg' width="160">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -135,13 +135,13 @@
                   <em>IEEE Access</em>, April 2024
                   <br>
                   <div>
-                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
-                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract0')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex0')"><i class="fa fa-book"></i> bib</a>
                   </div>
-                  <div id="abstract1" class="text-block" style="display: none;">
+                  <div id="abstract0" class="text-block" style="display: none;">
                      This work reviews the critical challenge of data scarcity in developing Transformer-based models for Electroencephalography (EEG)-based Brain-Computer Interfaces (BCIs), specifically focusing on Motor Imagery (MI) decoding. While EEG-BCIs hold immense promise for applications in communication, rehabilitation, and human-computer interaction, limited data availability hinders the use of advanced deep-learning models such as Transformers. In particular, this paper comprehensively analyzes three key strategies to address data scarcity: data augmentation, transfer learning, and the inherent attention mechanisms of Transformers. Data augmentation techniques artificially expand datasets, enhancing model generalizability by exposing them to a wider range of signal patterns. Transfer learning utilizes pre-trained models from related domains, leveraging their learned knowledge to overcome the limitations of small EEG datasets. By thoroughly reviewing current research and methodologies, this work underscores the importance of these strategies in overcoming data scarcity. It critically examines the limitations imposed by limited datasets and showcases potential solutions being developed to address these challenges. This comprehensive survey, focusing on the intersection of data scarcity and technological advancements, aims to provide a critical analysis of the current state-of-the-art in EEG-BCI development. By identifying research gaps and suggesting future directions, the paper encourages further exploration and innovation in this field. Ultimately, this work aims to contribute to the advancement of more accessible, efficient, and accurate EEG-BCI systems by addressing the fundamental challenge of data scarcity.
                   </div>
-                  <div id="bibtex1" class="text-block" style="display: none;">
+                  <div id="bibtex0" class="text-block" style="display: none;">
                     @ARTICLE{Keutayeva_Review_2024,
                     author={Keutayeva, Aigerim and Abibullaev, Berdakh},
                     journal={IEEE Access}, 
@@ -151,7 +151,7 @@
                     number={},
                     pages={62628-62647},
                     doi={10.1109/ACCESS.2024.3394696}}
-                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex1')" style="margin-top: 5px;">Copy BibTeX</button>
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex0')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
                     This work reviews the critical challenge of data scarcity in developing Transformer-based models for EEG-based BCIs, specifically focusing on Motor Imagery decoding. 
@@ -206,7 +206,7 @@
 
               <!-- Publication 2 -->
               <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()" bgcolor="#ffffd0">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:25%;vertical-align:top">
                   <img src='images/CNN_ViT.PNG' width="160">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -220,16 +220,16 @@
                   <em>IEEE Access</em>, September 2023
                   <br>
                   <div>
-                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
-                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
-                    <a class="badge badge-code" href="code_link" target="_blank">Code</a>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract2')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex2')"><i class="fa fa-book"></i> bib</a>
+                    <a class="badge badge-code" href="code_link" target="_blank"><i class="fa fa-code"></i> code</a>
                   </div>
-                  <div id="abstract1" class="text-block" style="display: none;">
+                  <div id="abstract2" class="text-block" style="display: none;">
                     Abstract.
                   </div>
-                  <div id="bibtex1" class="text-block" style="display: none;">
+                  <div id="bibtex2" class="text-block" style="display: none;">
                     Citation.
-                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex1')" style="margin-top: 5px;">Copy BibTeX</button>
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex2')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
                     This study explores the use of attention mechanism-based deep learning models to construct subject-independent motor-imagery based brain-computer interfaces (MI-BCIs), which present unique and intricate challenges from a machine learning perspective.
@@ -239,7 +239,7 @@
               
               <!-- Publication 3 -->
               <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()" >
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:25%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='zipnerf_image'><video  width=100% height=100% muted autoplay loop>
                     <source src="images/digital-twin.mp4" type="video/mp4">
@@ -270,23 +270,19 @@
                   <br>
                   <em>IEEE Access</em>, July 2023
                   <br>
-                  <a href="https://ieeexplore.ieee.org/document/10179224">full text</a>
-                  /
-                  <a href="https://youtu.be/oEz1tEZffWU">video</a>
-                  <p></p>
                   <div>
-                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
-                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
-                    <a class="badge badge-slides" href="slides_link" target="_blank">Slides</a>
-                    <a class="badge badge-video" href="https://youtu.be/oEz1tEZffWU" target="_blank">Video</a>
-                    <a class="badge badge-code" href="code_link" target="_blank">Code</a>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract3')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex3')"><i class="fa fa-book"></i> bib</a>
+                    <a class="badge badge-slides" href="slides_link" target="_blank"><i class="fa fa-file-powerpoint-o"></i> slides</a>
+                    <a class="badge badge-video" href="https://youtu.be/oEz1tEZffWU" target="_blank"><i class="fa fa-video-camera"></i> video</a>
+                    <a class="badge badge-code" href="code_link" target="_blank"><i class="fa fa-code"></i> code</a>
                   </div>
-                  <div id="abstract1" class="text-block" style="display: none;">
+                  <div id="abstract3" class="text-block" style="display: none;">
                     Abstract
                   </div>
-                  <div id="bibtex1" class="text-block" style="display: none;">
+                  <div id="bibtex3" class="text-block" style="display: none;">
                     @ARTICLE{Citation}
-                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex1')" style="margin-top: 5px;">Copy BibTeX</button>
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex3')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
                     This paper proposes a digital twin system framework for additive manufacturing that integrates machine learning models, employing Unity, OctoPrint, and Raspberry Pi for real-time control and monitoring.
@@ -296,7 +292,7 @@
 
               <!-- Publication 4 -->
               <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:25%;vertical-align:top">
                   <img src="images/thesis.PNG" alt="clean-usnob" width="160" height="160">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -309,16 +305,16 @@
                   <em>School of Engineering and Digital Sciences</em>, May 2023
                   <br>
                   <div>
-                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
-                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
-                    <a class="badge badge-slides" href="slides_link" target="_blank">Slides</a>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract4')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex4')"><i class="fa fa-book"></i> bib</a>
+                    <a class="badge badge-slides" href="slides_link" target="_blank"><i class="fa fa-file-powerpoint-o"></i> slides</a>
                   </div>
-                  <div id="abstract1" class="text-block" style="display: none;">
+                  <div id="abstract4" class="text-block" style="display: none;">
                     Abstract
                   </div>
-                  <div id="bibtex1" class="text-block" style="display: none;">
+                  <div id="bibtex4" class="text-block" style="display: none;">
                     @ARTICLE{Citation}
-                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex1')" style="margin-top: 5px;">Copy BibTeX</button>
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex4')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
                     This thesis investigates robust subject-independent BCIs using attention mechanismbased deep learning models on 4 ERP- and 4 MI-based BCI datasets. Access by request only.
@@ -340,7 +336,7 @@
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <!-- Presentation 1 -->
               <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:25%;vertical-align:top">
                   <img src='images/ihci2.PNG' width="160">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -354,17 +350,17 @@
                   <em>15th International Conference on IHCI-2023, EXCO Daegu, Korea</em>, November 8 - 10, 2023
                   <br>
                   <div>
-                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
-                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
-                    <a class="badge badge-slides" href="slides_link" target="_blank">Slides</a>
-                    <a class="badge badge-code" href="code_link" target="_blank">Code</a>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract5')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex5')"><i class="fa fa-book"></i> bib</a>
+                    <a class="badge badge-slides" href="slides_link" target="_blank"><i class="fa fa-file-powerpoint-o"></i> slides</a>
+                    <a class="badge badge-code" href="code_link" target="_blank"><i class="fa fa-code"></i> code</a>
                   </div>
-                  <div id="abstract1" class="text-block" style="display: none;">
+                  <div id="abstract5" class="text-block" style="display: none;">
                     Abstract
                   </div>
-                  <div id="bibtex1" class="text-block" style="display: none;">
+                  <div id="bibtex5" class="text-block" style="display: none;">
                     @ARTICLE{Citation}
-                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex1')" style="margin-top: 5px;">Copy BibTeX</button>
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex5')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
                     This research examines the employment of attention mechanism driven deep learning models for building subject-independent Brain-Computer Interfaces (BCIs).
@@ -386,7 +382,7 @@
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <!-- Book Chapter 1 -->
               <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:25%;vertical-align:top">
                   <img src='images/book-chapter-image.PNG' width="160">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -403,15 +399,15 @@
                   October 2024 | Publishing IN PROGRESS
                   <br>
                   <div>
-                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
-                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract6')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex6')"><i class="fa fa-book"></i> bib</a>
                   </div>
-                  <div id="abstract1" class="text-block" style="display: none;">
+                  <div id="abstract6" class="text-block" style="display: none;">
                     Abstract
                   </div>
-                  <div id="bibtex1" class="text-block" style="display: none;">
+                  <div id="bibtex6" class="text-block" style="display: none;">
                     @ARTICLE{Citation}
-                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex1')" style="margin-top: 5px;">Copy BibTeX</button>
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex6')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
                     This chapter explores the evolving trends and future potential of Transformer models within EEG-based MI BCIs.
