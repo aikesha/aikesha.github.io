@@ -319,7 +319,7 @@ section {
 .badge-demo { color: white; background-color: crimson; }
 .badge-demo:hover { background-color: rgba(220, 20, 60, 0.8); }
 
-/*.text-block {
+.text-block {
     display: inline-block;
     background-color: #f1f1f1;
     color: black;
@@ -327,7 +327,7 @@ section {
     border-radius: 5px;
     border: 1px solid darkgray;
     white-space: pre-wrap;
-}*/
+}
 
 button.bib {
     background-color: white;
