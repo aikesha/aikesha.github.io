@@ -288,4 +288,20 @@ section {
   max-width: 300px;
 }
 
+.bibtex-popup pre {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif; /* Keep consistent font styling */
+  font-size: 14px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 10px;
+  border-radius: 4px; /* Slightly rounded corners */
+  border: 1px solid #e0e0e0;
+  white-space: pre-wrap; /* Ensure the text wraps properly */
+  color: #333; /* Text color */
+}
+
+.bibtex-popup pre strong {
+  font-weight: bold; /* Ensure bold text for markdown-like syntax */
+}
+
+
 
