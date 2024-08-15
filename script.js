@@ -1,10 +1,8 @@
-// Function to toggle the visibility of the BibTeX popup
 function showBibtex(elementId) {
-    var bibtexElement = document.getElementById(elementId);
-    bibtexElement.classList.toggle('show');
+    var element = document.getElementById(elementId);
+    element.style.display = (element.style.display === "none" || element.style.display === "") ? "block" : "none";
 }
 
-// Function to copy BibTeX content to the clipboard
 function copyToClipboard(elementId) {
     var bibtexContent = document.querySelector(`#${elementId} .bibtex-content`).innerText;
     navigator.clipboard.writeText(bibtexContent).then(function() {
@@ -13,3 +11,4 @@ function copyToClipboard(elementId) {
         alert('Failed to copy BibTeX.');
     });
 }
+
