@@ -333,7 +333,9 @@ button.bib {
     font-size: 75%;
     /*margin-right: 0.5rem;*/
     border-radius: 5px;
-    padding: 13px 15px;
+    /*padding: 13px 15px;*/
+    padding-left: 5px;
+    padding-up: 10px;
 }
 
 .bibtex-popup {
