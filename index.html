@@ -12,6 +12,19 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22none%22 stroke=%22black%22/><text x=%2250%22 y=%2250%22 font-size=%2260%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>AK</text></svg>">
+
+    <script>
+      function showBibtex(id) {
+        var bibtex = document.getElementById(id);
+        if (bibtex.style.display === "none") {
+          bibtex.style.display = "block";
+        } else {
+          bibtex.style.display = "none";
+        }
+      }
+    </script>
+
+    
   </head>
 
   <body>
@@ -132,6 +145,18 @@
                   <br>
                   <em>IEEE Access</em>, November 2023
                   <br>
+                  <button onclick="showBibtex('bibtex1')">Show BibTeX</button>
+                  <div id="bibtex1" class="bibtex-popup">
+                    <pre>
+                      @article{Keutayeva2023,
+                      author = {Keutayeva, Aigerim and Abibullaev, Berdakh and Zollanvari, Amin},
+                      title = {Deep Learning in EEG-Based BCIs: A Comprehensive Review of Transformer Models, Advantages, Challenges, and Applications},
+                      journal = {IEEE Access},
+                      year = {2023},
+                      month = {November}
+                      }
+                    </pre>
+                  </div>
                   <p>
                     This comprehensive survey delves into the application of transformers in BCIs, providing readers with a lucid understanding of their foundational principles, inherent advantages, potential challenges, and diverse applications.
                   </p>
