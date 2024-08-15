@@ -282,21 +282,6 @@ section {
   align-items: center;
 }
 
-/*  Bibtex Button */
-
-
-.copy-bibtex {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.copy-bibtex:hover {
-  background-color: #0056b3;
-}
 
 /* Styles for publication entries and badges */
 .badge {
