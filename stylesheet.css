@@ -301,22 +301,22 @@ section {
 }
 
 .badge-abs { color: white; background-color: #29abe0; }
-.badge-abs:hover { color: white; background-color: #438bb7; }
+.badge-abs:hover { color: white; background-color: #0c7fad; }
 
 .badge-bib { color: #222529; background-color: #dfe2e5; }
-.badge-bib:hover { color: white; background-color: #c3c9cf; }
+.badge-bib:hover { color: #222529; background-color: #bacde0; }
 
 .badge-slides { color: white; background-color: green; }
-.badge-slides:hover { color: white; background-color: rgba(0, 128, 0, 0.8); }
+.badge-slides:hover { color: white; background-color: #84b58b; }
 
 .badge-code { color: white; background-color: black; }
-.badge-code:hover { color: white; background-color: rgba(0, 0, 0, 0.8); }
+.badge-code:hover { color: white; background-color: #5c5550; }
 
-.badge-video { color: #fcf0e4; background-color: #d88d54; }
-.badge-video:hover { color: white; background-color: #d88d54d4; }
+.badge-video { color: white; background-color: #e67119; }
+.badge-video:hover { color: white; background-color: #d88d54; }
 
-.badge-demo { color: white; background-color: crimson; }
-.badge-demo:hover { color: white; background-color: rgba(220, 20, 60, 0.8); }
+.badge-demo { color: white; background-color: #d9163d; }
+.badge-demo:hover { color: white; background-color: #d1647a; }
 
 .text-block {
     display: inline-block;
