@@ -322,11 +322,13 @@ section {
     display: inline-block;
     background-color: #f1f1f1;
     color: black;
-    padding: 10px 15px; /*left-right up-down*/
+    padding: 10px 20px; /*left-right up-down*/
     border-radius: 5px;
     border: 1px solid darkgray;
     white-space: pre-wrap;
+    margin-top: 10px; /* Add this line to create space below the buttons */
 }
+
 
 button.bib {
     background-color: white;
