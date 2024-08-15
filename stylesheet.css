@@ -323,11 +323,10 @@ section {
     display: inline-block;
     background-color: #f1f1f1;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 10px; /*left-right up-down*/
     border-radius: 5px;
     border: 1px solid darkgray;
-    padding-top: 30px;  /* .. */
-    /*margin-top: 30px;*/
+    margin-top: 30px;
     white-space: pre-wrap;
 }
 
