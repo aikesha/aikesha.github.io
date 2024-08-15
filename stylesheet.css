@@ -296,10 +296,10 @@ section {
     text-decoration: none;
 }
 
-/*.badge:hover {
+.badge:hover {
     background-color: inherit;
     cursor: pointer;
-}*/
+}
 
 .badge-abs { color: white; background-color: #29abe0; }
 /*.badge-abs:hover { background-color: #438bb7; }*/
