@@ -10,6 +10,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script>
+      function showBibtex(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "none" || !element.style.display) {
+          element.style.display = "block";
+        } else {
+          element.style.display = "none";
+        }
+      }
+
+      function copyToClipboard(id) {
+        var element = document.getElementById(id);
+        var text = element.innerText || element.textContent;
+        navigator.clipboard.writeText(text).then(() => {
+          alert("Copied to clipboard!");
+        }).catch(err => {
+          console.error("Failed to copy: ", err);
+        });
+      }
+    </script>
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22none%22 stroke=%22black%22/><text x=%2250%22 y=%2250%22 font-size=%2260%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>AK</text></svg>">
 
