@@ -296,10 +296,10 @@ section {
     text-decoration: none;
 }
 
-.badge:hover {
+/*.badge:hover {
     background-color: inherit;
     cursor: pointer;
-}
+}*/
 
 .badge-abs { color: white; background-color: #29abe0; }
 /*.badge-abs:hover { background-color: #438bb7; }*/
@@ -317,7 +317,7 @@ section {
 /*.badge-video:hover { background-color: #d88d54d4; }*/
 
 .badge-demo { color: white; background-color: crimson; }
-/*.badge-demo:hover { background-color: rgba(220, 20, 60, 0.8); }*/
+.badge-demo:hover { background-color: rgba(220, 20, 60, 0.8); }
 
 .text-block {
     display: inline-block;
