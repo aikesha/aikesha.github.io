@@ -326,6 +326,7 @@ section {
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid darkgray;
+    border-spacing: 15px;
     white-space: pre-wrap;
 }
 
