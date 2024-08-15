@@ -352,12 +352,6 @@ body, html {
     background-color: white; /* Or whatever your desired background color is */
 }
 
-.header-content, .project-card, .contact-card, .badge, .text-block {
-    background-color: inherit; /* Inherit the background color from the parent */
-}
-
-
-
 body:hover {
-    background-color: transparent !important;
+    background-color: white; 
 }
