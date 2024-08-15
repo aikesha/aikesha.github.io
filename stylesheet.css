@@ -296,10 +296,9 @@ section {
     text-decoration: none;
 }
 
-/*.badge:hover {
-    background-color: inherit;
+.badge:hover {
     cursor: pointer;
-}*/
+}
 
 .badge-abs { color: white; background-color: #29abe0; }
 .badge-abs:hover { color: white; background-color: #438bb7; }
@@ -323,7 +322,7 @@ section {
     display: inline-block;
     background-color: #f1f1f1;
     color: black;
-    padding: 10px 10px; /*left-right up-down*/
+    padding: 10px 15px; /*left-right up-down*/
     border-radius: 5px;
     border: 1px solid darkgray;
     white-space: pre-wrap;
@@ -332,8 +331,9 @@ section {
 button.bib {
     background-color: white;
     font-size: 75%;
-    margin-right: 0.5rem;
-    padding: 3px 5px;
+    /*margin-right: 0.5rem;*/
+    border-radius: 5px;
+    padding: 13px 15px;
 }
 
 .bibtex-popup {
