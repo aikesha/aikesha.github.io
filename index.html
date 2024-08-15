@@ -134,7 +134,17 @@
                   <br>
                   <em>IEEE Access</em>, November 2023
                   <br>
-                  <button onclick="showBibtex('bibtex1')">Show BibTeX</button>
+                  <div>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract1')">Abstract</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex1')">BibTeX</a>
+                    <a class="badge badge-slides" href="slides_link" target="_blank">Slides</a>
+                    <a class="badge badge-video" href="video_link" target="_blank">Video</a>
+                    <a class="badge badge-code" href="code_link" target="_blank">Code</a>
+                    <a class="badge badge-demo" href="demo_link" target="_blank">Demo</a>
+                  </div>
+                  <div id="abstract1" class="text-block" style="display: none;">
+                    This is the abstract text for the publication. It will be shown or hidden when the "Abstract" button is clicked.
+                  </div>
                   <div id="bibtex1" class="bibtex-popup">
                     <p class="bibtex-content">
                       @article{Keutayeva2023,
@@ -145,7 +155,7 @@
                         month = {November}
                       }
                     </p>
-                    <button class="copy-bibtex" onclick="copyToClipboard('bibtex1')">Copy BibTeX</button>
+                    <button class="bib" onclick="copyToClipboard('bibtex1')">Copy BibTeX</button>
                   </div>
                   <p>
                     This comprehensive survey delves into the application of transformers in BCIs, providing readers with a lucid understanding of their foundational principles, inherent advantages, potential challenges, and diverse applications.
