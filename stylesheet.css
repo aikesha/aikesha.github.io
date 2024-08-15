@@ -348,3 +348,6 @@ button.bib {
     max-width: 300px;
 }
 
+body:hover {
+    background-color: transparent !important;
+}
