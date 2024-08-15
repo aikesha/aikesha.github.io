@@ -299,6 +299,7 @@ section {
 }
 
 .badge:hover {
+    background-color: inherit;
     cursor: pointer;
 }
 
@@ -348,10 +349,16 @@ button.bib {
     max-width: 300px;
 }
 
-body, html {
-    background-color: white; /* Or whatever your desired background color is */
+
+/* zipnerf_stop  styling*/
+.highlighted-row {
+    background-color: #ffffd0;
 }
 
-body:hover {
-    background-color: white; 
+.highlighted-row:hover {
+    background-color: #e6e6e6; /* or any color you prefer */
+}
+
+tr.highlighted-row:hover td {
+    background-color: inherit; /* Keeps the background color unchanged */
 }
