@@ -302,19 +302,19 @@ section {
 }*/
 
 .badge-abs { color: white; background-color: #29abe0; }
-/*.badge-abs:hover { background-color: #438bb7; }*/
+.badge-abs:hover { color: white; background-color: #438bb7; }
 
 .badge-bib { color: #222529; background-color: #dfe2e5; }
-/*.badge-bib:hover { color: white; background-color: #c3c9cf; }*/
+.badge-bib:hover { color: white; background-color: #c3c9cf; }
 
 .badge-slides { color: white; background-color: green; }
-/*.badge-slides:hover { color: white; background-color: rgba(0, 128, 0, 0.8); }*/
+.badge-slides:hover { color: white; background-color: rgba(0, 128, 0, 0.8); }
 
 .badge-code { color: white; background-color: black; }
-/*.badge-code:hover { color: white; background-color: rgba(0, 0, 0, 0.8); }*/
+.badge-code:hover { color: white; background-color: rgba(0, 0, 0, 0.8); }
 
 .badge-video { color: #fcf0e4; background-color: #d88d54; }
-/*.badge-video:hover { color: white; background-color: #d88d54d4; }*/
+.badge-video:hover { color: white; background-color: #d88d54d4; }
 
 .badge-demo { color: white; background-color: crimson; }
 .badge-demo:hover { color: white; background-color: rgba(220, 20, 60, 0.8); }
