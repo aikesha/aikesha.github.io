@@ -144,6 +144,50 @@
             </tbody></table>
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <!-- Publication 2 -->
+              <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()" bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src='images/CNN_ViT.PNG' width="160">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://ieeexplore.ieee.org/document/10266354">
+                    <span class="papertitle">Compact convolutional transformer for subject-independent motor imagery EEG-based BCIs</span>
+                  </a>
+                  <br>
+                  <strong>Aigerim Keutayeva</strong>,
+                  <a href="https://ieeexplore.ieee.org/author/272643398525040"> Nail Fakhrutdinov</a>,
+                  <a href="https://research.nu.edu.kz/en/persons/berdakh-abibullaev"> Berdakh Abibullaev</a>
+                  <br>
+                  <em>Scientific Reports</em>, October 28, 2024
+                  <br>
+                  <div>
+                    <a class="badge badge-abs" onclick="showBibtex('abstract2')"><i class="fa fa-file-text-o"></i> abs</a>
+                    <a class="badge badge-bib" onclick="showBibtex('bibtex2')"><i class="fa fa-book"></i> bib</a>
+                    <a class="badge badge-code" href="https://github.com/aikesha/Spatio-Temporal-CNN-ViT" target="_blank"><i class="fa fa-code"></i> code</a>
+                  </div>
+                  <div id="abstract2" class="text-block" style="display: none;">
+                    Motor imagery electroencephalography (EEG) analysis is crucial for the development of effective brain-computer interfaces (BCIs), yet it presents considerable challenges due to the complexity of the data and inter-subject variability. This paper introduces EEGCCT, an application of compact convolutional transformers designed specifically to improve the analysis of motor imagery tasks in EEG. Unlike traditional approaches, EEGCCT model significantly enhances generalization from limited data, effectively addressing a common limitation in EEG datasets. We validate and test our models using the open-source BCI Competition IV datasets 2a and 2b, employing a Leave-One-Subject-Out (LOSO) strategy to ensure subject-independent performance. Our findings demonstrate that EEGCCT not only outperforms conventional models like EEGNet in standard evaluations but also achieves better performance compared to other advanced models such as Conformer, Hybrid s-CViT, and Hybrid t-CViT, while utilizing fewer parameters and achieving an accuracy of 70.12%. Additionally, the paper presents a comprehensive ablation study that includes targeted data augmentation, hyperparameter optimization, and architectural improvements.
+                  </div>
+                  <div id="bibtex2" class="text-block" style="display: none;">
+                    @article{keutayeva2024compact,
+                    title={Compact convolutional transformer for subject-independent motor imagery EEG-based BCIs},
+                    author={Keutayeva, Aigerim and Fakhrutdinov, Nail and Abibullaev, Berdakh},
+                    journal={Scientific Reports},
+                    volume={14},
+                    number={1},
+                    pages={25775},
+                    year={2024},
+                    publisher={Nature Publishing Group UK London}
+                    }
+                    <button class="badge badge-bib" onclick="copyToClipboard('bibtex2')" style="margin-top: 5px;">Copy BibTeX</button>
+                  </div>
+                  <p>
+                    This paper introduces EEGCCT, an application of compact convolutional transformers designed specifically to improve the analysis of motor imagery tasks in EEG. 
+                  </p>
+                </td>
+              </tr>
+              
+              
               <!-- Publication 0 -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:top">
@@ -452,19 +496,30 @@
                   <a href="https://research.nu.edu.kz/en/persons/amin-zollanvari"> Amin Zollanvari</a>,
                   <a href="https://research.nu.edu.kz/en/persons/berdakh-abibullaev"> Berdakh Abibullaev</a>
                   <br>
-                  <em>Discovering the Frontiers of Human-Robot Interaction, Springer</em>
+                  <em>Discovering the Frontiers of Human-Robot Interaction, Springer</em>, July 24, 2024
                   <br>
-                  October 2024 | Publishing IN PROGRESS
+                  
                   <br>
                   <div>
                     <a class="badge badge-abs" onclick="showBibtex('abstract6')"><i class="fa fa-file-text-o"></i> abs</a>
                     <a class="badge badge-bib" onclick="showBibtex('bibtex6')"><i class="fa fa-book"></i> bib</a>
                   </div>
                   <div id="abstract6" class="text-block" style="display: none;">
-                    IN PROGRESS.
+                    This chapter explores the transformative impact of transformer models on EEG-based motor imagery brain-computer interfaces (BCIs)---systems that are pushing the boundaries of human-machine interaction. Transformers, renowned for their self-attention mechanisms, excel at handling sequential data, making them uniquely suited for decoding intricate EEG patterns. We offer a comprehensive review of transformer applications in BCIs, showcasing how they significantly improve signal interpretation accuracy, efficiency, and robustness. The chapter examines the technical foundations, including the inherent complexities of EEG signals---noise, non-stationarity, and intersubject variability---and how transformers tackle them through superior feature extraction and denoising capabilities. We trace the evolution of these models from traditional machine-learning approaches to sophisticated architectures that capture both temporal and spatial dependencies in EEG data. The chapter then delves into practical applications of these models in real-world BCI systems, discussing how they translate into tangible benefits for users. We explore prospects and ongoing research aimed at overcoming limitations like computational demands and the need for personalized models. By analyzing emerging trends and envisioning future directions, this chapter provides a roadmap for the BCI research community, ultimately leading to more intuitive, versatile, and effective human-computer interactions.
                   </div>
                   <div id="bibtex6" class="text-block" style="display: none;">
-                    IN PROGRESS.
+                    @Inbook{Keutayeva2024,
+                    author="Keutayeva, Aigerim and Zollanvari, Amin and Abibullaev, Berdakh",
+                    editor="Vinjamuri, Ramana",
+                    title="Evolving Trends and Future Prospects of Transformer Models in EEG-Based Motor-Imagery BCI Systems",
+                    bookTitle="Discovering the Frontiers of Human-Robot Interaction: Insights and Innovations in Collaboration, Communication, and Control",
+                    year="2024",
+                    publisher="Springer Nature Switzerland",
+                    address="Cham",
+                    pages="233--256",
+                    isbn="978-3-031-66656-8",
+                    doi="10.1007/978-3-031-66656-8_10",
+                    url="https://doi.org/10.1007/978-3-031-66656-8_10"}
                     <button class="badge badge-bib" onclick="copyToClipboard('bibtex6')" style="margin-top: 5px;">Copy BibTeX</button>
                   </div>
                   <p>
